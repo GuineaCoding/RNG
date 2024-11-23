@@ -34,3 +34,4 @@ D:\RNG\RandomNumberGenerator\obj\Debug\net9.0\ref\RandomNumberGenerator.dll
 D:\RNG\RandomNumberGenerator\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\RNG\RandomNumberGenerator\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\RNG\RandomNumberGenerator\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\RNG\RandomNumberGenerator\obj\Debug\net9.0\RandomNumberGenerator.sourcelink.json

@@ -11,7 +11,6 @@ namespace RandomNumberGenerator.Controllers
         [HttpGet]
         public IActionResult GetRandomFile()
         {
-            // Generate random data
             byte[] randomNumber = new byte[2048];  
             System.Security.Cryptography.RandomNumberGenerator.Fill(randomNumber);
        
@@ -21,7 +20,7 @@ namespace RandomNumberGenerator.Controllers
             var stream = new FileStream(filePath, FileMode.Open, FileAccess.Read);
 
     
-            return File(stream, "application/octet-stream", "randomdata.bin");
+            return File(stream, "application/octet-stream", "aspNetSecureRandomGeneratedNumber.bin");
         }
     }
 }
